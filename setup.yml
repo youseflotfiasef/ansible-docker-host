@@ -1,0 +1,7 @@
+- hosts:
+    - template
+  become: yes
+  vars:
+    users: [ "joseph" ]
+  roles:
+     - ../roles/docker/

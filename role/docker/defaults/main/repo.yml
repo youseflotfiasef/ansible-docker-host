@@ -1,0 +1,17 @@
+r_docker_add_repo: yes
+r_docker_repos:
+  centos:
+    '7':
+      url: https://download.docker.com/linux/centos/7/$basearch/stable
+      gpg: https://download.docker.com/linux/centos/gpg
+    '8':
+      url: https://download.docker.com/linux/centos/8/$basearch/stable
+      gpg: https://download.docker.com/linux/centos/gpg
+
+  debian:
+    '10':
+      url: https://download.docker.com/linux/debian buster stable
+      gpg: https://download.docker.com/linux/debian/gpg
+    '11':
+      url: '[arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian bullseye stable'
+      gpg: https://download.docker.com/linux/debian/gpg

@@ -1,0 +1,6 @@
+r_docker_compose_version: 1.28.4
+docker_daemon_conf: {}
+ho_has_internet: yes
+
+r_docker_compose_url: "https://github.com/docker/compose/releases/download/{{ r_docker_compose_version }}/docker-compose-Linux-x86_64"
+r_docker_compose_bin_path: /usr/bin/docker-compose
